@@ -13,10 +13,7 @@ WEBAPP_HOST = '0.0.0.0'
 WEBAPP_PORT = os.getenv('PORT', default=8000)
 
 WORKS_CHATS = [
-    os.getenv('ACHAT_ID'),
-    os.getenv('VCHAT_ID'),
-    os.getenv('SCHAT_ID'),
-    os.getenv('MCHAT_ID'),
+    os.getenv('CHAT_ID')
 ]
 
 # AI
